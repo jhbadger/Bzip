@@ -7,6 +7,7 @@ module Bzip
       Process.run("bzcat", args: [filename], output: io)
       @lines = [""]
       @lines = io.to_s.split("\n")
+      @lines.pop if @lines.last == ""
     end
     def each_line
       @lines.each do |line|
