@@ -1,0 +1,9 @@
+name: Bzip
+version: 0.1.0
+
+authors:
+  - Jonathan Badger <jhbadger@gmail.com>
+
+crystal: 0.21.1
+
+license: MIT
